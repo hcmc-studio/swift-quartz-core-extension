@@ -6,18 +6,18 @@ import PackageDescription
 let package = Package(
     name: "SwiftQuartzCoreExtension",
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SwiftQuartzCoreExtension",
-            targets: ["SwiftQuartzCoreExtension"]),
+            targets: ["SwiftQuartzCoreExtension"]
+        ),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SwiftQuartzCoreExtension"),
+            name: "SwiftQuartzCoreExtension"
+        ),
         .testTarget(
             name: "SwiftQuartzCoreExtensionTests",
-            dependencies: ["SwiftQuartzCoreExtension"]),
+            dependencies: ["SwiftQuartzCoreExtension"]
+        ),
     ]
 )
