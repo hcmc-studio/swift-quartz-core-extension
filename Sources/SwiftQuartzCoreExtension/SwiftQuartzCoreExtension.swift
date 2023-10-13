@@ -1,4 +1,6 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-public class SwiftQuartzCoreExtension {}
+public final class SwiftQuartzCoreExtension {
+    private init() {}
+}
